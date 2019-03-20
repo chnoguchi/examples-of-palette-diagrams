@@ -1,0 +1,12 @@
+::::::::::::::: ALGORITHM :::::::::::::::
+EM algorithm in Julia v0.6
+
+
+::::::::::::::: PALETTE DIAGRAM :::::::::::::::
+== Cluster Selection (2-dim t-SNE embedding) ==
+perplexity = 15
+n_clusters = 6
+divergenve_option = 3
+
+== Palette Diagram (1-dim ISOMAP embedding) ==
+n_neighbors = 30 (Number of neighbors to contruct a weighted graph for isomap.)

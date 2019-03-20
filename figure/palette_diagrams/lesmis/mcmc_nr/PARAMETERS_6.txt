@@ -1,0 +1,16 @@
+::::::::::::::: ALGORITHM :::::::::::::::
+Algorithm = MCMC Newman-Reinert (2016)
+Maximum and initial number of groups = 30
+Relaxation time = 10000
+Sample interval = 10000
+Number of samples = 20
+
+
+::::::::::::::: PALETTE DIAGRAM :::::::::::::::
+== Cluster Selection (2-dim t-SNE embedding) ==
+perplexity = 20
+n_clusters = 6
+divergenve_option = 3
+
+== Palette Diagram (1-dim ISOMAP embedding) ==
+n_neighbors = 20 (Number of neighbors to contruct a weighted graph for isomap.)

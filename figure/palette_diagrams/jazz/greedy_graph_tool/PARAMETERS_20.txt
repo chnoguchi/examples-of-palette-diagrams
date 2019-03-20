@@ -1,0 +1,12 @@
+::::::::::::::: ALGORITHM :::::::::::::::
+UNKNOWN algorithm
+
+
+::::::::::::::: PALETTE DIAGRAM :::::::::::::::
+== Cluster Selection (2-dim t-SNE embedding) ==
+perplexity = 20
+n_clusters = 20
+divergenve_option = 3
+
+== Palette Diagram (1-dim ISOMAP embedding) ==
+n_neighbors = 30 (Number of neighbors to contruct a weighted graph for isomap.)
